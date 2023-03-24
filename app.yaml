@@ -3,10 +3,10 @@ api_version: 1
 threadsafe: true
 
 handlers:
-- url: /
+- url: https://github.com/faizal108/CC_GAE/tree/main/
   static_files: https://github.com/faizal108/CC_GAE/tree/main/www/index.html
   upload: https://github.com/faizal108/CC_GAE/tree/main/www/index.html
 
-- url: /(.*)
+- url: https://github.com/faizal108/CC_GAE/tree/main/(.*)
   static_files: https://github.com/faizal108/CC_GAE/tree/main/www/\1
   upload: https://github.com/faizal108/CC_GAE/tree/main/www/(.*)
