@@ -12,6 +12,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Deploy to App Engine
-        run: gcloud app deploy app.yaml --quiet --project faizal-cc-gae
+        run: gcloud app deploy app.yaml --quiet --project ccgae-381113
         env:
           GOOGLE_APPLICATION_CREDENTIALS: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
